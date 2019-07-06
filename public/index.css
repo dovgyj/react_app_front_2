@@ -1,0 +1,83 @@
+body {
+  background-image: url("http://getwallpapers.com/wallpaper/full/8/2/3/551157.jpg");
+  background-size: 40%;
+  font-family: font-sans-serif, sans-serif;
+}
+
+.landing {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1235px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box-widget {
+  padding: 20px;
+  border-radius: 4px;
+  background: #282c37;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.simple_form input[type="email"],
+.simple_form input[type="password"],
+.simple_form input[type="text"] {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  outline: 0;
+  font-family: inherit;
+  resize: vertical;
+  background: #131419;
+  border: 1px solid #0a0b0e;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.simple_form input[type="email"]:hover,
+.simple_form input[type="number"]:hover,
+.simple_form input[type="password"]:hover,
+.simple_form input[type="text"]:hover,
+.simple_form textarea:hover {
+  border-color: #000;
+}
+
+
+fieldset,figcaption,figure,footer,form,h1,h2,
+h3,h4,h5,h6,header,hgroup,html,i,iframe,
+img,label,legend,menu,nav,body,a,b,li,div,em,
+section,small,span,strong,table,tbody,td,th,thead,tr,ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.landing_grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 50%) minmax(0, 50%);
+  grid-gap: 30px;
+}
+
+p.lead {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #9baec8;
+}
+
+div {
+  display: block;
+}
+
