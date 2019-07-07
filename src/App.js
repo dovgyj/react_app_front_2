@@ -9,6 +9,8 @@ class App extends Component {
 
     render() {
         return (
+            <div className="stars"> 
+                <div className="twinkling">
             <div className='public-layout'>
                 <div className='container'>
                     <div className='landing'>
@@ -54,6 +56,8 @@ class App extends Component {
                 <div className='container'>
                     <Footer/>
                 </div>
+            </div>
+            </div>
             </div>
         );
     }
